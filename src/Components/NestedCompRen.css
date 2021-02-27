@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.actionitems {
+  margin: 5px;
+}
+
+.actionitems button {
+  background-color: transparent;
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+  min-width: 100px;
+}
+
+.actionitems button:active {
+  background-color: #22305e;
+  color: white;
+}
+
+.options {
+  background-color: transparent;
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+  min-width: 100px;
+}
+
+.options:active {
+  background-color: #5e5a22;
+  cursor: pointer;
+}
+
+.results {
+  background-color: chocolate;
+  min-width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-transform: capitalize;
+  display: inline-block;
+  padding-left: 10px;
+  color: white;
+}
+
+i {
+  display: inline-block;
+  color: white;
+}
